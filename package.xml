@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mae263a</name>
+  <version>1.0.0</version>
+  <description>
+      External ROS communication and custom config for the doodlebot manipulator arm.
+  </description>
+  <author email="adthoms@ucla.edu">Alexander Thoms</author>
+  <maintainer email="adthoms@ucla.edu">Alexander Thoms</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>open_manipulator_control_gui</depend>
+  <depend>open_manipulator_controller</depend>
+  <depend>open_manipulator_controllers</depend>
+  <depend>open_manipulator_description</depend>
+  <depend>open_manipulator_gazebo</depend>
+  <depend>open_manipulator_hw</depend>
+  <depend>open_manipulator_libs</depend>
+  <depend>open_manipulator_moveit_config</depend>
+  <depend>open_manipulator_msgs</depend>
+  <depend>open_manipulator_teleop</depend>
+</package>

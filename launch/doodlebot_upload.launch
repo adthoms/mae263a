@@ -1,0 +1,4 @@
+<launch>
+  <param name="robot_description"
+         command="$(find xacro)/xacro --inorder '$(find mae263a)/urdf/doodlebot_robot.urdf.xacro'"/>
+</launch>
