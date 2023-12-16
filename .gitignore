@@ -1,3 +1,5 @@
 *.vscode
+*.png
+*.asv
 course/*
 log/*
