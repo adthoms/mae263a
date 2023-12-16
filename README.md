@@ -53,7 +53,7 @@ roslaunch mae263a doodlebot_gazebo.launch # launch gazebo simulation
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false # enable control
 roslaunch open_manipulator_control_gui open_manipulator_control_gui.launch # control gui
 ```
-Press the `run` bottom at the bottom left corner of the gazebo window, and click `Timer Start` in the OpenManipulator control GUI.
+Press the `run` bottom at the bottom left corner of the gazebo window, and click `Timer Start` in the OpenManipulator control GUI. To simulate **DoodleBot** in Matlab as a proof of concept for the inverse kinematics calculated in the final report, run `main.m` in `/tooling`.
 
 ### Hardware
 Prior to launching hardware control, position **DoodleBot** in a configuration similar to the one shown in [Section 5.1](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_controller_package/#launch-controller) of the OpenNanipulator emanual. Then, enter the following commands in three separate terminals:
